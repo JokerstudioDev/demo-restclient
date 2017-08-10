@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <header></header>
+    <body>
+       <ul>
+        <% accounts.forEach(function(account) { %>
+            <li><%= account.name %> - <%= account.account_id %></li>
+        <% }); %>
+       </ul>
+    </body>
+</html>
